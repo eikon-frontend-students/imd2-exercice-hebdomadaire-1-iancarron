@@ -12,3 +12,62 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e7eaee;
+}
+
+.card {
+  margin: 50px 0 0 50px;
+  width: 370px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.coffee img {
+  height: 280px;
+  align-self: stretch;
+  width: 340px;
+  border-radius: 25px;
+}
+
+.title {
+  font-size: 27px;
+  line-height: 35px;
+  text-align: left;
+}
+
+.profil {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.pfp {
+  width: 56px;
+  height: 56px;
+}
+
+.name {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.name-date {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
